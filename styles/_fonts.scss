@@ -4,38 +4,38 @@
     font-family: 'Lato';
     font-weight: $oc-font-weight-bold;
     font-style: normal;
-       src: url('../fonts/lato/Lato-Bold.woff2') format('woff2'),
-        url('../fonts/lato/Lato-Bold.woff') format('woff'),
-        url('../fonts/lato/Lato-Bold.ttf') format('truetype');
+       src: url('~@opuscapita/oc-cm-common-styles/fonts/lato/Lato-Bold.woff2') format('woff2'),
+        url('~@opuscapita/oc-cm-common-styles/fonts/lato/Lato-Bold.woff') format('woff'),
+        url('~@opuscapita/oc-cm-common-styles/fonts/lato/Lato-Bold.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'Lato';
     font-weight: $oc-font-weight-normal;
     font-style: normal;
-       src: url('../fonts/lato/Lato-Regular.woff2') format('woff2'),
-        url('../fonts/lato/Lato-Regular.woff') format('woff'),
-        url('../fonts/lato/Lato-Regular.ttf') format('truetype');
+       src: url('~@opuscapita/oc-cm-common-styles/fonts/lato/Lato-Regular.woff2') format('woff2'),
+        url('~@opuscapita/oc-cm-common-styles/fonts/lato/Lato-Regular.woff') format('woff'),
+        url('~@opuscapita/oc-cm-common-styles/fonts/lato/Lato-Regular.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'Lato';
     font-weight: $oc-font-weight-light;
     font-style: normal;
-    src: url('../fonts/lato/Lato-Light.woff2') format('woff2'),
-        url('../fonts/lato/Lato-Light.woff') format('woff'),
-        url('../fonts/lato/Lato-Light.ttf') format('truetype');
+    src: url('~@opuscapita/oc-cm-common-styles/fonts/lato/Lato-Light.woff2') format('woff2'),
+        url('~@opuscapita/oc-cm-common-styles/fonts/lato/Lato-Light.woff') format('woff'),
+        url('~@opuscapita/oc-cm-common-styles/fonts/lato/Lato-Light.ttf') format('truetype');
 }
 
-.oc-font-light {
+.oc-ui-font-light {
     font-weight: $oc-font-weight-light;
 }
 
-.oc-font-normal {
+.oc-ui-font-normal {
     font-weight: $oc-font-weight-normal;
 }
 
-.oc-font-bold {
+.oc-ui-font-bold {
     font-weight: $oc-font-weight-bold;
 }
 
@@ -51,18 +51,18 @@ h3 {
     font-size: $oc-font-size-h3;
 }
 
-.oc-font-large {
+.oc-ui-font-large {
     font-size: $oc-font-size-large;
 }
 
-.oc-font-medium {
+.oc-ui-font-medium {
     font-size: $oc-font-size-medium;
 }
 
-.oc-font-normal {
+.oc-ui-font-normal {
     font-size: $oc-font-size-normal;
 }
 
-.oc-font-small {
+.oc-ui-font-small {
     font-size: $oc-font-size-small;
 }

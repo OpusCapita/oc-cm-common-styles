@@ -1,7 +1,7 @@
 {
   "author": "OpusCapita (www.opuscapita.com)",
   "name": "@opuscapita/oc-cm-common-styles",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "private": true,
   "description": "OpusCapita CM common styles",
   "main": "styles/main.scss",
@@ -10,7 +10,12 @@
     "npm": ">=5.3.x"
   },
   "peerDependencies": {
-    "bootstrap-sass": "3.3.7",
+    "react-select": "1.0.0-rc.3"
+  },
+  "dependencies": {
+    "bootstrap-sass": "3.3.7"
+  },
+  "devDependencies": {
     "react-select": "1.0.0-rc.3"
   },
   "repository": {

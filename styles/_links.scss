@@ -1,5 +1,5 @@
 *:not(li) > a {
-  @include oc-outline();
+  @include oc-ui-outline();
   border-radius: 1px;
   
   &:focus {

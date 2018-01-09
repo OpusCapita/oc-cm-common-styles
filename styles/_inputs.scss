@@ -8,11 +8,11 @@ input[type=checkbox], input[type=radio], input[type=file] {
   color: $oc-color-text-disabled;
 }
 
-.oc-mandatory label::after {
+.oc-ui-mandatory label::after {
   content: " *";
 }
 
-.oc-mandatory-error label::after {
+.oc-ui-mandatory-error label::after {
   color: $oc-color-error;
   content: " *";
 }

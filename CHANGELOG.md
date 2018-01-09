@@ -3,4 +3,6 @@
 * In general follow (https://docs.npmjs.com/getting-started/semantic-versioning) versioning.
 
 ## <next>
-* Initial commit
+
+## 1.0.0
+* First version
