@@ -1,15 +1,15 @@
 # oc-cm-common-styles
 
 ### To use oc-cm-common-styles
-* Common styles are in SASS format
+Common styles are in Sass format.
+Import in Javascript:
 ```javascript
-// import in your javascript
 import '@opuscapita/oc-cm-common-styles';
-
-// or import in your sass file
+```
+Import in Sass
+```javascript
 @import '~@opuscapita/oc-cm-common-styles';
 ```
-Some components needs reducers to be loaded in the redux store, those are done in the main level and are usually already there. Same goes for ocfront styles.
 
 ### Development workflow with `npm link`
 ##### Link local package to your project
