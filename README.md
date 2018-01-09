@@ -11,7 +11,7 @@ Some components needs reducers to be loaded in the redux store, those are done i
 ##### Link local package to your project
 * Run `npm link` at `oc-cm-common-styles` root to make your local package linkable
 * Run `npm link @opuscapita/oc-cm-common-styles` at project's dir that's using `oc-cm-common-styles` to use local package
-#####
+##### Development
 * Develop the styles and check with project using the package
 ##### Unlink local package
 * Run `npm unlink @opuscapita/oc-cm-common-styles` at project's dir that's using `oc-cm-common-styles`
