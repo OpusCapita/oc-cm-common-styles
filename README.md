@@ -1,9 +1,13 @@
 # oc-cm-common-styles
 
 ### To use oc-cm-common-styles
-* You must have sass-loader configured to your projects webpack configuration
+* Common styles are in SASS format
 ```javascript
+// import in your javascript
 import '@opuscapita/oc-cm-common-styles';
+
+// or import in your sass file
+@import '~@opuscapita/oc-cm-common-styles';
 ```
 Some components needs reducers to be loaded in the redux store, those are done in the main level and are usually already there. Same goes for ocfront styles.
 
