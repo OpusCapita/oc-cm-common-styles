@@ -32,6 +32,5 @@ Import in Sass
 * Make a pull request
 * Merge the pull request and delete the development branch
 
-### Creating a new release tag to git
-* Run `git tag -a v0.0.0 -m "Version 0.0.0"` [Info](https://git-scm.com/book/en/v2/Git-Basics-Tagging)
-* Run `git push origin --tags`
+### Creating a new version release
+* Run `npm version [major|minor|patch]` [Info](https://docs.npmjs.com/cli/version)
