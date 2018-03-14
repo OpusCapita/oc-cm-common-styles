@@ -4,6 +4,9 @@
 
 ## <next>
 
+## 2.0.2
+* Private to public and lic added
+
 ## 2.0.1
 * React select peer-dependency updated
 
