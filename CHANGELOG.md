@@ -4,6 +4,10 @@
 
 ## <next>
 
+## 2.0.3
+* Added checkbox style
+* Updated To use oc-cm-common-styles
+
 ## 2.0.2
 * Private to public and lic added
 

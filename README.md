@@ -4,11 +4,35 @@
 Common styles are in Sass format.
 Import in Javascript:
 ```javascript
-import '@opuscapita/oc-cm-common-styles';
+import '@opuscapita/oc-cm-common-styles/styles/app',
+import '@opuscapita/oc-cm-common-styles/styles/bootstrap_v3_custom',
+import '@opuscapita/oc-cm-common-styles/styles/bootstrap_v3_overrides',
+import '@opuscapita/oc-cm-common-styles/styles/bootstrap_v3_without_icons',
+import '@opuscapita/oc-cm-common-styles/styles/buttons',
+import '@opuscapita/oc-cm-common-styles/styles/colors',
+import '@opuscapita/oc-cm-common-styles/styles/fonts',
+import '@opuscapita/oc-cm-common-styles/styles/icons',
+import '@opuscapita/oc-cm-common-styles/styles/inputs',
+import '@opuscapita/oc-cm-common-styles/styles/links',
+import '@opuscapita/oc-cm-common-styles/styles/mixins',
+import '@opuscapita/oc-cm-common-styles/styles/react_select_custom',
+import '@opuscapita/oc-cm-common-styles/styles/variables';
 ```
 Import in Sass
 ```javascript
-@import '~@opuscapita/oc-cm-common-styles';
+@import '~@opuscapita/oc-cm-common-styles/styles/app',
+@import '~@opuscapita/oc-cm-common-styles/styles/bootstrap_v3_custom',
+@import '~@opuscapita/oc-cm-common-styles/styles/bootstrap_v3_overrides',
+@import '~@opuscapita/oc-cm-common-styles/styles/bootstrap_v3_without_icons',
+@import '~@opuscapita/oc-cm-common-styles/styles/buttons',
+@import '~@opuscapita/oc-cm-common-styles/styles/colors',
+@import '~@opuscapita/oc-cm-common-styles/styles/fonts',
+@import '~@opuscapita/oc-cm-common-styles/styles/icons',
+@import '~@opuscapita/oc-cm-common-styles/styles/inputs',
+@import '~@opuscapita/oc-cm-common-styles/styles/links',
+@import '~@opuscapita/oc-cm-common-styles/styles/mixins',
+@import '~@opuscapita/oc-cm-common-styles/styles/react_select_custom',
+@import '~@opuscapita/oc-cm-common-styles/styles/variables';
 ```
 
 ### Development workflow with `npm link`
