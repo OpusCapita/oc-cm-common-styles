@@ -33,8 +33,7 @@ input[type=checkbox] {
   &:before {
     height: 16px;
     width: 16px;
-    content: "\f00c";
-    font-family: FontAwesome;
+    content: "\2611";
     color: $oc-color-white;
     position: absolute;
     display: inline-block !important;
