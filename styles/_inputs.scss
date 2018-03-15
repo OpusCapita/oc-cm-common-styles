@@ -33,17 +33,20 @@ input[type=checkbox] {
   &:before {
     height: 16px;
     width: 16px;
-    content: "\2714";
-    color: $oc-color-white;
+    content: "\2610";
+    color: $oc-color-primary-azure;
     position: absolute;
     display: inline-block !important;
     background: $oc-color-white;
     border: 1px solid $oc-color-primary-azure;
     cursor: pointer;
+    &:hover {
+      color: $oc-color-primary-azure;
+    }
   }
   &:checked {
     &:before {
-      color: $oc-color-primary-azure;
+      content: "\2611";
     }
   }
   &:disabled {
