@@ -17,42 +17,54 @@ input[type=radio], input[type=file] {
   content: " *";
 }
 
-.checkbox label {
-  max-height: 20px;
-  line-height: 20px !important;
-}
-
-input[type=checkbox] {
-  &:focus {
-    box-shadow: 0 0 0 1px $oc-color-white, 0 0 0 3px $oc-color-primary-yellow;
-  }
-  outline: none !important;
-  height: 16px;
-  width: 16px;
-  margin-top: 1px !important;
-  &:before {
-    height: 16px;
-    width: 16px;
-    content: "\2610";
-    color: $oc-color-primary-azure;
-    position: absolute;
-    display: inline-block !important;
-    background: $oc-color-white;
-    border: 1px solid $oc-color-primary-azure;
-    cursor: pointer;
-    &:hover {
-      color: $oc-color-primary-azure;
+.checkbox {
+  label {
+    max-height: 2rem;
+    line-height: 2rem;
+    input[type=checkbox] &:focus {
+      outline: none!important;
+      box-shadow: auto;
     }
-  }
-  &:checked {
-    &:before {
-      content: "\2611";
+    input[type=checkbox]:focus {
+      outline: none !important;
     }
-  }
-  &:disabled {
-    &:before {
-      color: $oc-color-text-disabled;
-      border: 1px solid $oc-color-text-disabled;
+    input[type=checkbox] {
+      margin-left: -2.2rem;
+      &:focus {
+        &:before {
+          box-shadow: inset 0 0 0 0.15rem $oc-color-primary-yellow;
+        }
+      }
+      outline: none;
+      margin-top: 0;
+      line-height: 2rem;
+      height: 2rem;
+      width: 2rem;
+      &:before {
+        content: "\2610";
+        font-size: 2rem;
+        line-height: 2rem;
+        width: 2rem;
+        padding-left: 0.1rem;
+        color: $oc-color-primary-azure;
+        position: absolute;
+        display: inline-block;
+        background: $oc-color-white;
+        cursor: pointer;
+        &:hover {
+          color: $oc-color-primary-azure;
+        }
+      }
+      &:checked {
+        &:before {
+          content: "\2611";
+        }
+      }
+      &:disabled {
+        &:before {
+          color: $oc-color-text-disabled;
+        }
+      }
     }
   }
 }
