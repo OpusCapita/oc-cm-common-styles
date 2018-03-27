@@ -3,6 +3,7 @@
 * In general follow (https://docs.npmjs.com/getting-started/semantic-versioning) versioning.
 
 ## <next>
+* Don't load font as default
 
 ## 2.0.4
 * Removed checkbox style
