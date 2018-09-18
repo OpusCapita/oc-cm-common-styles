@@ -3,6 +3,8 @@
 * In general follow (https://docs.npmjs.com/getting-started/semantic-versioning) versioning.
 
 ## <next>
+
+## 2.2.0
 * Added :export blocks to _colors.scss and _variables.scss, so these variables can be used in JavaScript code via Webpack/SASS Loader
 
 ## 2.1.0
