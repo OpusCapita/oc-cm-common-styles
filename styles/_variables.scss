@@ -1,9 +1,9 @@
 @import 'colors';
 
 //Currently we do not use roundings, but the variables have been added for Bootstrap compatibility
-$oc-border-radius-base:        0;
-$oc-border-radius-large:       0;
-$oc-border-radius-small:       0;
+$oc-border-radius-base: 0;
+$oc-border-radius-large: 0;
+$oc-border-radius-small: 0;
 
 $oc-height-navbar: 40px;
 //Margin or padding of a content
@@ -32,3 +32,27 @@ $oc-font-size-normal: 1.4rem; //default text
 $oc-font-size-small: 1.2rem;
 
 $oc-margin-content: 10px;
+
+// Export values that can be used in JS via Webpack
+:export {
+  borderRadiusBase: $oc-border-radius-base;
+  borderRadiusLarge: $oc-border-radius-large;
+  borderRadiusSmall: $oc-border-radius-small;
+  heightNavbar: $oc-height-navbar;
+  spaceContent: $oc-space-content;
+  radiusContent: $oc-radius-content;
+  radiusNavbar: $oc-border-radius-navbar;
+  sidemenuColorText: $oc-sidemenu-color-text;
+  fontWeightLight: $oc-font-weight-light;
+  fontWeightNormal: $oc-font-weight-normal;
+  fontWeightBold: $oc-font-weight-bold;
+  fontSizeH1: $oc-font-size-h1;
+  fontSizeH2: $oc-font-size-h2;
+  fontSizeH3: $oc-font-size-h3;
+  fontSizeH4: $oc-font-size-h4;
+  fontSizeLarge: $oc-font-size-large;
+  fontSizeMedium:$oc-font-size-medium;
+  fontSizeNormal: $oc-font-size-normal;
+  fontSizeSmall: $oc-font-size-small;
+  marginContent: $oc-margin-content;
+}
