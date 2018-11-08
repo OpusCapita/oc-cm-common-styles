@@ -4,6 +4,10 @@
 
 ## <next>
 
+## 3.0.0
+* Remove references to `react-select` SASS styles since version 2 uses emotion for styles
+* Fix package.json issues
+
 ## 2.2.0
 * Added :export blocks to _colors.scss and _variables.scss, so these variables can be used in JavaScript code via Webpack/SASS Loader
 
